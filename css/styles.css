@@ -1,0 +1,30 @@
+ul.tweets{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40%;
+}
+    .tweets li{
+        border-bottom: 1px solid grey;
+        list-style-type: none;
+        padding: 10px;
+        margin:0 43px 5px 0;
+    }
+        .tweets li img, h4, h5 {
+            float:left;
+            margin-right: 15px;
+        }
+
+        .tweets li img{
+            border-radius: 15px;
+        }
+
+        .tweets p {
+            clear:both;
+        }
+
+#date{
+    float:right;
+    position: relative;
+    bottom: 78px;
+}
+

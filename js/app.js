@@ -1,3 +1,7 @@
-/**
- * Created by developer on 10/17/14.
- */
+var app = app || {};
+
+$(function() {
+
+    new app.TweetView();
+
+});

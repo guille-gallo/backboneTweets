@@ -1,25 +1,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Tweets</title>
-    <!--link rel="stylesheet" href="css/styles.css"-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <ul class="tweets">
 
-    <div class="site">
-        <div class="logo">
-            <img src="" />
-        </div>
-    </div>
+    </ul>
 
 
+    <script type="text/template" id="tweet-template">
 
+           <li>
+               <img src="<%= image %>"/>
+               <h4><%= name %></h4>
+               <h5>@<%= screen_name %></h5>
+               <p id="date"><%= created_at %></p>
+               <p><%= text %></p>
+           </li>
+
+    </script>
 
     <script src="js/libs/jquery-1.11.1.min.js"></script>
     <script src="js/libs/underscore-min.js"></script>
     <script src="js/libs/backbone-min.js"></script>
     <script src="js/models/tweet-model.js"></script>
     <script src="js/collections/tweet-collection.js"></script>
-
+    <script src="js/views/tweet-view.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
